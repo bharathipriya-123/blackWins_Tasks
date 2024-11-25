@@ -1,0 +1,593 @@
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    display:inline-block;
+    /* border:1px solid black; */
+}
+
+#page1
+{
+    /* border:1px solid black; */
+    height:100vh;
+}
+#nav1{
+    /* border:1px solid black; */
+    width:740px;
+    height: 35px;
+    padding:2px;
+    text-indent: 40px;
+    font-size:25px;
+    color:red;
+   
+    
+}
+#nav2
+{
+    /* border:1px solid black; */
+    width:740px;
+    height:35px;
+    text-align:center;
+    padding:2px;
+    word-spacing: 25px;
+    font-size:20px;
+    
+a{
+    text-decoration: none;
+    color:black;
+}
+}
+#register
+{
+    width:80px;
+    height:25px;
+    border-radius:6px;
+    background-color: blue;
+    color:white;
+}
+#wordings
+{
+    margin-top: 140px;
+}
+#line1
+{
+    margin-left:600px;
+    color:red;
+    
+}
+#line2{
+    margin-left:500px;
+    font-size:65px;
+    line-height:5px;
+   
+}
+#line3
+{
+    margin-left:450px;
+    font-size:65px;
+}
+#line4
+{
+    margin-left:400px;
+}
+#line5
+{
+    margin-left:390px;
+}
+#button
+{
+    margin-top:60px;
+    display:inline-block;
+}
+
+#browse
+{
+    margin-left:700px;
+   width:100px;
+   height:40px;
+   font-size:15px;
+   border-radius:5px;
+   background-color: rgb(125, 125, 207);
+   display:inline-block;
+   color:white;
+}
+
+
+#page2
+{
+    border:1px solid black;
+    height:100vh;
+   
+}
+
+
+#line21
+{
+    margin-top:50px;
+    margin-left:400px;
+    font-size:50px;
+}
+#line22
+{
+    margin-left: 420px;
+    font-size:25px;
+    text-transform: capitalize;
+}
+#line23
+{
+    margin-left:590px;
+    font-size:25px;
+    text-transform: capitalize;
+}
+#grid-container{
+    border:1px solid black;
+    border:none;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 150px ;
+    gap:20px;
+    margin-top:80px;
+   
+}
+ #grid-container >.grid-item
+ {
+ border:1px solid black;
+ /* font-size: 25px; */
+ text-align: center;
+ /* line-height: 50px; */
+ height:330px;
+ box-shadow:15px 20px 20px rgba(0,0,0,.5),
+ inset 4px 4px 10px white;
+ border-radius:10px;
+}
+#grid1
+{
+    /* margin-top:85px; */
+    margin-left:0px;
+    font-size:30px;
+}
+#profile
+{
+    margin-top:40px;
+    font-size:30px;
+    
+}
+    
+
+#grid1-content
+{
+    /* font-size:20px; */
+}
+#grid2
+{
+    /* margin-top:85px; */
+    margin-left:0px;
+    font-size:30px;
+}
+#search
+{
+    margin-top:40px;
+    font-size:30px;
+}
+#grid2-content
+{
+    /* font-size:20px; */
+}
+#grid3
+{
+    /* margin-top:85px; */
+    margin-left:0px;
+    font-size:30px;
+}
+#grid3-content
+{
+    /* font-size:20px; */
+}
+#upload
+{
+    margin-top:40px;
+    font-size:30px;
+}
+#grid4
+{
+    /* margin-top:85px; */
+    margin-left:0px;
+    font-size:30px;
+}
+#grid4-content
+{
+    /* font-size:20px; */
+}
+#job
+{
+    margin-top:40px;
+    font-size:30px;
+}
+#page3
+{
+    /* border:1px solid black; */
+    height:150vh;
+}
+#line31
+{
+    margin-top:50px;
+    margin-left:380px;
+    font-size:50px;
+    text-transform: capitalize;
+   
+}
+#line32
+{ 
+    margin-left: 650px;
+    font-size:50px;
+    text-transform: capitalize;
+    line-height:5px;
+}
+#line33
+{
+    margin-left:490px;
+    font-size:25px;
+    text-transform: capitalize;
+    line-height:25px;
+
+}
+#line34
+{
+    margin-left:560px;
+    font-size:25px;
+    text-transform: capitalize;
+    line-height:5px;
+    
+}
+
+  #grid{
+     /* border:1px solid black; */
+    /* background-color:yellow;  */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px ;
+    column-gap:20px;
+     margin-top:80px;
+     row-gap: 45px;
+}
+#grid >.grid_tems{
+    border:1px solid black;
+    /* background-color: blue; */
+     text-align: center;
+    /* line-height: 150px; */
+    font-size: 25px;
+    background-color:#dd9b9b;
+    border:none !important;
+     /* box-shadow:15px 20px 20px rgba(0,0,0,.5),
+                inset 4px 4px 10px white; */
+     border-radius: 20px !important;
+     overflow:hidden;
+     justify-content: center;
+     align-items:center;
+     margin:20px 60px;
+   
+
+}  
+#box1:hover
+ {
+   background-color: rgb(13, 13, 173);
+   /* box-shadow:inset 5px 5px 20px rgba(0,0,0,.3),
+             inset -4px -4px 10px white;
+             transition: .2s; */
+ }
+ #con1
+ {
+    /* margin-top:100px; */
+ }
+ #design
+{
+    margin-top:20px;
+}
+ #box2:hover
+ {
+   background-color: blue;
+   
+ }
+ #con2
+ {
+    /* margin-top:100px; */
+ }
+ #sales
+{
+    margin-top:20px;
+}
+ #box3:hover
+ {
+   background-color: blue;
+ }
+ #con3
+ {
+    /* margin-top:100px; */
+ }
+ #market
+{
+    margin-top:20px;
+}
+ #box4:hover
+ {
+   background-color: blue;
+ }
+ #con4
+ {
+    /* margin-top:100px; */
+ }
+ #finance
+ {
+    margin-top:20px;
+ }
+ #box5:hover
+ {
+   background-color: blue;
+ }
+ #con5
+ {
+    /* margin-top:100px; */
+ }
+ #automobile
+ {
+    margin-top:20px;
+ }
+ #box6:hover
+ {
+   background-color: blue;
+ }
+ #con6
+ {
+    /* margin-top:100px; */
+ }
+ #logistics
+ {
+    margin-top:20px;
+ }
+ #box7:hover
+ {
+   background-color: blue;
+ }
+ #con7
+ {
+    /* margin-top:100px; */
+ }
+ #construction
+ {
+    margin-top:20px;
+ }
+ #box8:hover
+ {
+   background-color: blue;
+ }
+ #con8
+ {
+    /* margin-top:100px; */
+ }
+ #admin
+ {
+    margin-top:20px;
+ }
+#viewall
+{
+  margin-top:100px;
+  margin-left:650px;
+  width:150px;
+  height:45px;
+  border-radius:5px;
+  background-color: blue;
+  font-size:15px;
+  color:white;
+}
+#page4
+{
+    /* border:1px solid black; */
+    height:130vh;
+}
+#grid22{
+    /* border:1px solid black; */
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 250px 250px ;
+    gap:30px;
+    margin-top:80px;
+    height: 150px;
+}
+#grid22 >.grid_tems2{
+    border:1px solid black;
+    text-align: center;
+    /* height: 500px; */
+    background-color:rgb(115, 237, 237);
+    border:none !important;
+     box-shadow:15px 20px 20px rgba(0,0,0,.5),
+                inset 4px 4px 10px white;
+     border-radius: 10px !important; */
+      overflow:hidden;
+     justify-content: center;
+     align-items:center; 
+      /* margin:20px 60px; */
+    
+   
+ } 
+ .icon
+ {
+    margin-top:60px;
+ }
+
+#heading41
+{
+    margin-top:50px;
+    margin-left:490px;
+    font-size:50px;
+    text-transform: capitalize;
+}
+#line41
+{
+    margin-top:50px;
+    margin-left:430px; 
+    font-size:25px;
+    text-transform: capitalize;
+     line-height: 2px;
+
+}
+#line42
+{
+    margin-top:50px;
+    margin-left:530px;
+    font-size:25px;
+    text-transform: capitalize;
+    line-height: 2px;
+}
+#box21
+{
+
+}
+.compname
+{
+    /* margin-top:30px; */
+}
+.role
+{
+   
+    /* margin-top:40px; */
+}
+.buttonpos
+{
+    margin-top:5px;
+    margin-left:10px;
+    height:25px;
+    width:105px;
+    color:rgb(153, 153, 224)
+}
+.jobtype
+{
+    margin-left:40px;
+    height:25px;
+    width:105px;
+    color:rgb(230, 164, 164)
+}
+.sal
+{
+    margin-left:60px;
+    height:25px;
+    width:105px;
+    color:rgb(145, 225, 145);
+}
+#box21:hover{
+    background-color: rgb(166, 166, 222);
+}
+#box22:hover{
+    background-color: rgb(166, 166, 222);
+}
+#box23:hover{
+    background-color: rgb(166, 166, 222);
+}
+#box24:hover{
+    background-color: rgb(166, 166, 222);
+}
+#box25:hover{
+    background-color: rgb(166, 166, 222);
+}
+#box26:hover{
+    background-color: rgb(166, 166, 222);
+}
+
+#page5{
+    /* border:1px solid black; */
+    height:130vh;
+}
+#page5-content
+{
+    margin-top:20px;
+}
+#line51
+{
+    margin-top:50px;
+    margin-left:550px;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+#line52
+{
+    margin-top:50px;
+    margin-left:380px;
+    font-size:25px;
+    text-transform: capitalize;
+    line-height:5px;
+}
+#line53
+{ margin-top:50px;
+    margin-left:650px;
+    font-size:25px;
+    text-transform: capitalize;
+    line-height:0px;
+
+}
+#grid33
+{
+    /* border:1px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 250px  ;
+    gap:30px;
+    margin-top:80px;
+    /* height: 100px; */
+}
+#grid33 > .grid-items3
+{
+    border:1px solid white;
+    height:500px;
+}
+img{
+    width:477px;
+}
+#page7
+{
+    /* border:1px solid black; */
+    height:40vh;
+
+}
+#footer
+{
+ display:inline-block;
+ /* margin-top: 50px; */
+}
+#list1
+{
+    display:inline-block;
+    margin-left: 100px;
+    /* line-height: 40px; */
+    margin-top:10px
+    
+}
+#list2
+{
+    display:inline-block;
+    margin-left: 100px;
+    line-height: 40px;
+}
+#list3
+{
+    display:inline-block;
+    margin-left: 100px;
+    line-height: 40px;
+}
+#list4
+{
+    display:inline-block;
+    margin-left: 100px;
+    line-height: 40px;
+    margin-top:50px;
+}
+#anchor{
+    text-decoration: none;
+    color:black;
+}
+#jobhunt
+{
+    color:red;
+}
+a{
+    text-decoration: none;
+}

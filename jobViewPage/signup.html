@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .login{
+    border:1px solid black;
+    height:100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2015/11/15/07/47/geometry-1044090_640.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#sign-up{
+    border:5px solid black;
+    width:350px;
+    height:300px;
+    margin-left:500px;
+    margin-top:150px;
+    padding:70px;
+    border-radius: 12px;
+    background-color: blanchedalmond;
+    box-shadow: 0px 0px 80px orangered ;
+}
+#button{
+    border:1px solid black;
+    border-radius:5px;
+    
+}
+h1{
+    text-align: center;
+}
+    </style>
+</head>
+
+<body>
+    <div class="login">
+        <div id="sign-up">
+            <h1>Create Login</h1>
+            <table>
+                <form>
+                <tr>
+                    <td><label for="user_name">Username:</label></td>
+                    <td><input type="text" id="user_name"></td>
+                </tr>
+                <tr>
+                    <td><label for="user_email">E-mail:</label></td>
+                    <td><input type="email" id="user_email"></td>
+                </tr>
+                <tr>
+                    <td><label for="user_pass">New Password:</label></td>
+                    <td><input type="password" id="user_pass"></td>
+                </tr>
+                <tr>
+                    <td><label for="user_confpass">Confirm Password:</label></td>
+                    <td><input type="text" id="user_confpass"></td>
+                </tr>
+            </form>
+            </table>
+            <br>
+            <br>
+            <button id="button"><a href="">submit</a></button>
+            <br>
+            <br>
+            Already have an Account??<a href="loginform.html">Log-in</a>
+        </div>
+    </div>
+</body>
+</html>
