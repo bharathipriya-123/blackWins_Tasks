@@ -1,0 +1,36 @@
+.footer {
+   background-color: white !important;
+    /* color: #fff; */
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    display: flex;
+    justify-items: center;
+
+  }
+  .footer-text
+  {
+    margin-left:50px;
+  }
+  .footer-name
+  {
+    display:flex;
+  }
+  ul{
+    margin-left:650px;
+  }
+  .items
+  {
+    display: inline-block;
+    margin-right: 70px;
+    color:black;
+    
+  }
+   .footer-name a{
+    text-decoration: none;
+    color:black;
+  } 
+   
+  
+  
